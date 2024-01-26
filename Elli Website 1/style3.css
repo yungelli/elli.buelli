@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #ffffff; /* Hintergrundfarbe des Body */
+}
+
+/* Stile für die Navigationsleiste (Topnav) */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(237, 111, 111, 0.8); 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Stile für Links innerhalb der Navigationsleiste */
+.topnav a {
+    float: left;
+    color: #8dc299; /* Textfarbe der Links */
+    text-align: center;
+    padding: 4px 20px; /* Innenabstand der Links */
+    margin-right: 1px; /* Rechtes Margin der Links */
+    text-decoration: none;
+    font-size: 150px; /* Schriftgröße der Links */
+    margin: 0px;
+    padding: 50px; /* Äußerer Innenabstand der Links */
+}
+
+.topnav a.active {
+  background-color: #8dc299;
+  color:rgba(237, 111, 111, 0.8);
+}
+/* Stile für den Hover-Zustand der Links in der Navigationsleiste */
+.topnav a:hover {
+    background-color: #8dc299; /* Hintergrundfarbe bei Hover */
+    color: rgba(237, 111, 111, 0.8); /* Textfarbe bei Hover */
+}
+
+/* Stile für den Inhaltscontainer */
+.content-container {
+    text-align: center;
+    padding: 20px; /* Innenabstand des Inhaltscontainers */
+    margin: 10px; /* Außenabstand des Inhaltscontainers */
+  
+}
+a {
+    text-decoration: none;
+}
+/* Stile für Absatz innerhalb des Inhaltscontainers */
+.content-container p {
+    font-size: 40px; /* Schriftgröße für Absatz im Inhaltscontainer */
+    color: #6b3eff;
+    font-weight: 4000; /* Schriftgewicht für Absatz im Inhaltscontainer */
+    margin: 10px 0; /* Oberer und unterer Abstand für Absatz im Inhaltscontainer */
+}
+/* contact links sind anklickbar und man kommt zu meinen kontaktinfos */
+p:hover {
+  color: rgb(119, 25, 25);  /* Farbe ändert sich wenn man auf den text mit der Maus geht */
+}
+.content-container a img {
+  width: 20%; 
+  height: auto; 
+}

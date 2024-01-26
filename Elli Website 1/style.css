@@ -1,0 +1,102 @@
+/* Globale Stile für den gesamten Körper der Webseite */
+body {
+  margin: 0; /* Kein äußerer Rand */
+  font-family: Arial, Helvetica, sans-serif; /* Verwendete Schriftart */
+  font-weight: bold; /* Fettgedruckter Text */
+  background-color: #ffffff; /* Weißer Hintergrund */
+}
+
+/* Stile für die Top-Navigationsleiste */
+.topnav {
+  overflow: hidden; /* Verhindert das Abschneiden von Inhalten */
+  background-color: #b5d4f9; /* Hellblauer Hintergrund */
+  display: flex; /* Flexbox für das Layout */
+  justify-content: space-between; /* Platzierung der Elemente am Anfang und Ende des Containers */
+}
+
+/* Stile für Links in der Top-Navigationsleiste */
+.topnav a {
+  float: left; /* Links ausgerichtet */
+  color: #ff76df; /* Rosa Textfarbe */
+  text-align: center;
+  text-decoration: none;
+  font-size: 150px;
+  margin: 0px;
+  padding: 50px;
+}
+
+.topnav a:hover {
+  background-color: #ff76df; /* Rosa Hintergrund bei Hover */
+  color: #b5d4f9; /* Textfarbe ändert sich zu Hellblau bei Hover */
+}
+
+.topnav a.active {
+  background-color: #ff76df; /* Rosa Hintergrund für aktiven Link */
+  color: #b5d4f9; /* Textfarbe für aktiven Link ändert sich zu Hellblau */
+}
+
+/* Stile für den Hauptinhalt der Webseite */
+.content-container {
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+}
+
+/* Stile für einen speziellen Link mit Klasse 'link-hi' */
+.link-hi {
+  color: rgb(106, 158, 195); /* Blaue Textfarbe */
+  font-size: 700px;
+  text-decoration: none;
+  opacity: 0.6; /* text durchsichtiger*/
+  position: absolute; /* Absolute Positionierung relativ zum nächstgelegenen positionierten Elternelement */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(30deg); /* Rotationseffekt und Zentrierung */
+}
+
+/* Stile für den Link 'link-elli' */
+.link-elli {
+  color: rgb(209, 138, 190); /* Violette Textfarbe */
+  font-size: 150px;
+  text-decoration: none;
+  top: 70%;
+  left: 50%;
+}
+
+/* Stile für allgemeine Links beim Hover-Effekt */
+a:hover {
+  color: rgb(119, 25, 114); /* Textfarbe ändert sich bei Hover */
+}
+
+/* Stile für Links im unteren Bereich der Seite */
+.bottom-center a {
+  color: #a49a96; /* Graue Textfarbe */
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 100; /* Rechter Seitenabstand von 100 Einheite*/
+  opacity: 0.6;
+}
+
+/* Stile für Schaltflächen im unteren Bereich der Seite */
+.bottom-center button {
+  background-color: #ccc4f8; /* Hellblauer Hintergrund für die Schaltfläche */
+  padding: 20px 20px; /* Innenabstand oben und unten 20px, seitlich 20px */
+  border: none; /* Kein Rand */
+  border-radius: 30px; /* Abgerundete Ecken */
+  opacity: 0.5; /* Transparenz */
+}
+
+/* Zusätzliche Stile für Links im unteren Bereich der Seite */
+.bottom-center a {
+  color: #658ad4; /* Blaue Textfarbe */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Änderung der Textfarbe für Links im unteren Bereich bei Hover */
+.bottom-center a:hover {
+  color: #b32a2a; /* Textfarbe ändert sich zu Rot bei Hover */
+}
+
+
